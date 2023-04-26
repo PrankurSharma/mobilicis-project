@@ -32,7 +32,7 @@ app.get("/read1", async (req, res) => {
                     {
                         'car': 'BMW'
                     }, {
-                        'car': 'Mercedes'
+                        'car': 'Mercedes-Benz'
                     }
                 ]
             }
@@ -91,7 +91,7 @@ app.get("/read4", async (req, res) => {
                     {
                         'car': 'BMW'
                     }, {
-                        'car': 'Mercedes'
+                        'car': 'Mercedes-Benz'
                     }, {
                         'car': 'Audi'
                     }
