@@ -7,16 +7,16 @@ function Main() {
     const { data, data2, data3, data4, set_data, set_data2, set_data3, set_data4 } = useContext(MainContext);
 
     useEffect(() => {
-        Axios.get("http://localhost:3001/read1").then((response) => {
+        Axios.get("https://mobilicis-backend-3vyg.onrender.com/read1").then((response) => {
             set_data(response.data);
         });
-        Axios.get("http://localhost:3001/read2").then((response) => {
+        Axios.get("https://mobilicis-backend-3vyg.onrender.com/read2").then((response) => {
             set_data2(response.data);
         });
-        Axios.get("http://localhost:3001/read3").then((response) => {
+        Axios.get("https://mobilicis-backend-3vyg.onrender.com/read3").then((response) => {
             set_data3(response.data);
         });
-        Axios.get("http://localhost:3001/read4").then((response) => {
+        Axios.get("https://mobilicis-backend-3vyg.onrender.com/read4").then((response) => {
             set_data4(response.data);
         });
     }, []);
