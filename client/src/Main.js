@@ -24,7 +24,7 @@ function Main() {
         <div className="main">
             <h2> Users with income less than $5 and car brand either BMW or Mercedes </h2>
             <TableComponent data={data}/>
-            <h2> Male users with income greater than 10000 </h2>
+            <h2> Male users with phone price greater than 10000 </h2>
             <TableComponent data={data2}/>
             <h2> Users whose last name starts with the letter M, quote character length is greater than 15 and their email consists of their last name. </h2>
             <TableComponent data={data3}/>
