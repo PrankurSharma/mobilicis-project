@@ -16,7 +16,7 @@ app.use(cors());
 
 app.use(cache('120 minutes'));
 
-mongoose.connect(process.env.link, {
+mongoose.connect(process.env.LINK, {
     useNewUrlParser: true
 });
 

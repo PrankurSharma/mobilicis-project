@@ -3,7 +3,7 @@ Thank you for visiting this project. This project is a part of selection process
 Technical Skills used in this project: ReactJS(Frontend), NodeJS(Backend), MongoDB(Database), Netlify(Frontend deployment), Render(Backend deployment)
 
 Link to the deployed website:
-https://aqitracker.netlify.app/
+https://mobilicis-project.netlify.app/
 
 There are a few third party libraries used in order to perform the desired functionalities:
 
