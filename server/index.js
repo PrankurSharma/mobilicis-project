@@ -47,8 +47,12 @@ app.get("/read2", async (req, res) => {
             {
                 'gender': 'Male'
             }, {
-                'phone_price': {
-                    '$gt': '10000'
+                '$expr': {
+                    '$gt': [
+                        {
+                            '$toDouble': '$phone_price'
+                        }, 10000
+                    ]
                 }
             }
         ]
